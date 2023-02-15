@@ -7,6 +7,31 @@
     <title>LocalStorage</title>
 </head>
 <body>
-    
+    <style>
+        body {
+            display: grid;
+            place-items: center;
+        }
+        .container {
+            width: 300px;
+        }
+        input {
+            width: 100%;
+            padding: 20px;
+            border: 1px solid grey;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+    </style>
+    <div class="container">
+        <form action="" class="form">
+            <input type="text" name="имя" id="user" autocomplete="off">
+            <input type="date" name="дата" id="data">
+            <input type="number" name="число" id="number">
+            <button type="submit">Click</button>
+        </form>
+    </div>
+
+    <script src="./main.js"></script>
 </body>
 </html>
